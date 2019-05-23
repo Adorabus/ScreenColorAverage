@@ -9,7 +9,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-	ColorAverager* ca = new ColorAverager(0, 0, 1920, 1080);
+	ColorAverager* ca = new ColorAverager(960, 0, 960, 1080);
 	Color c;
 
 	while (true)

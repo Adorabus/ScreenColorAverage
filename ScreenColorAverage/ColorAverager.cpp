@@ -45,13 +45,13 @@ void ColorAverager::getAverage(Color* average)
 	avgG = 0;
 	avgB = 0;
 
-	BitBlt(hdcMemory, 0, 0, w, h, hdcSource, 0, 0, SRCCOPY);
+	BitBlt(hdcMemory, 0, 0, w, h, hdcSource, x, y, SRCCOPY);
 
 	for (int i = 0; i < (w * 4 * h); i += 4)
 	{
-		red = (int)bitPointer[i];
+		red = (int)bitPointer[i + 2];
 		green = (int)bitPointer[i + 1];
-		blue = (int)bitPointer[i + 2];
+		blue = (int)bitPointer[i];
 
 		avgR += red;
 		avgG += green;
