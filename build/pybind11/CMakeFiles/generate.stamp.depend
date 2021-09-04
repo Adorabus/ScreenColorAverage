@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Users/Fox/source/repos/ScreenColorAverage/pybind11/CMakeLists.txt
+C:/Users/Fox/source/repos/ScreenColorAverage/pybind11/tools/FindPythonLibsNew.cmake
+C:/Users/Fox/source/repos/ScreenColorAverage/pybind11/tools/pybind11Common.cmake
+C:/Users/Fox/source/repos/ScreenColorAverage/pybind11/tools/pybind11Tools.cmake
+C:/util/cmake/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/util/cmake/share/cmake-3.21/Modules/CMakeDependentOption.cmake
+C:/util/cmake/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake
+C:/util/cmake/share/cmake-3.21/Modules/CMakeParseArguments.cmake
+C:/util/cmake/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake
+C:/util/cmake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake
+C:/util/cmake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+C:/util/cmake/share/cmake-3.21/Modules/FindPackageMessage.cmake
+C:/util/cmake/share/cmake-3.21/Modules/FindPythonInterp.cmake
+C:/util/cmake/share/cmake-3.21/Modules/GNUInstallDirs.cmake
+C:/util/cmake/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake
+C:/util/cmake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake
+C:/util/cmake/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake

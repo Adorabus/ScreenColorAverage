@@ -18,9 +18,6 @@
     <ClCompile Include="ColorAverager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="coloravg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ColorAverager.h">

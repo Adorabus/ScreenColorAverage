@@ -1,6 +1,8 @@
 #include "ColorAverager.h"
 
+#include <pybind11/pybind11.h>
 
+namespace py = pybind11;
 
 ColorAverager::ColorAverager(int x, int y, int w, int h)
 {
@@ -65,4 +67,24 @@ void ColorAverager::getAverage(Color* average)
 	average->r = (int)avgR;
 	average->g = (int)avgG;
 	average->b = (int)avgB;
+}
+
+PYBIND11_MODULE(screen_color_avg, handle) {
+	handle.doc() = "Get average color from given screen region.";
+
+	py::class_<ColorAverager>(
+		handle, "ColorAverager"
+	)
+	.def(py::init<int, int, int, int>())
+	.def("get_average", &ColorAverager::getAverage)
+	;
+
+	py::class_<Color>(
+		handle, "Color"
+	)
+	.def(py::init<int, int, int>())
+	.def_readwrite("r", &Color::r)
+	.def_readwrite("g", &Color::g)
+	.def_readwrite("b", &Color::b)
+	;
 }

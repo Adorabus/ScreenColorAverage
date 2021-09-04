@@ -1,0 +1,4 @@
+C:/Users/Fox/source/repos/ScreenColorAverage/build/CMakeFiles/screen_color_avg.dir
+C:/Users/Fox/source/repos/ScreenColorAverage/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Fox/source/repos/ScreenColorAverage/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Fox/source/repos/ScreenColorAverage/build/pybind11/CMakeFiles/ALL_BUILD.dir

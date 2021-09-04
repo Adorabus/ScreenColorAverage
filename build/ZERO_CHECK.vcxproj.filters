@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fox\source\repos\ScreenColorAverage\build\CMakeFiles\59bc8d080a58e86cb8f828a420efdec6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F4F9859-8662-3CF6-8098-B4489DDA06BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
